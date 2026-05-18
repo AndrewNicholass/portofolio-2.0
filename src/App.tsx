@@ -1,12 +1,12 @@
 import './App.css'
-import Navbar from './components/navbar';
-import Hero from './components/hero';
-import Projects from './components/projects';
-import Experience from './components/experience';
-import Contact from './components/contact';
-import ClickSpark from './components/ClickSpark';
+import Navbar from './components/navbar.jsx';
+import Hero from './components/hero.jsx';
+import Projects from './components/Projects.jsx';
+import Experience from './components/Experience.jsx';
+import Contact from './components/Contact.jsx';
+import ClickSpark from './components/ClickSpark.jsx';
 // import Lanyard from './components/lanyard.jsx'
-import LogoLoop from './components/LogoLoop';
+import LogoLoop from './components/LogoLoop.jsx';
 import { SiReact, SiNextdotjs, SiTypescript, SiTailwindcss } from 'react-icons/si';
 
 const techLogos = [
