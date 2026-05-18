@@ -1,6 +1,3 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
 import './App.css'
 import Navbar from './components/navbar.jsx'
 import Hero from './components/hero.jsx'
@@ -9,7 +6,6 @@ import Experience from './components/experience.jsx'
 import Contact from './components/contact.jsx'
 import ClickSpark from './components/clickSpark.jsx'
 // import Lanyard from './components/lanyard.jsx'
-import MagicBento from './components/MagicBento.jsx'
 import LogoLoop from './components/LogoLoop.jsx'
 import { SiReact, SiNextdotjs, SiTypescript, SiTailwindcss } from 'react-icons/si';
 
@@ -20,11 +16,6 @@ const techLogos = [
   { node: <SiTailwindcss />, title: "Tailwind CSS", href: "https://tailwindcss.com" },
 ];
 
-const imageLogos = [
-  { src: "/logos/company1.png", alt: "Company 1", href: "https://company1.com" },
-  { src: "/logos/company2.png", alt: "Company 2", href: "https://company2.com" },
-  { src: "/logos/company3.png", alt: "Company 3", href: "https://company3.com" },
-];
 
 function App() {
   return (
