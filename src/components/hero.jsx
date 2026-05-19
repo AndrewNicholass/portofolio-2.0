@@ -118,7 +118,7 @@ export default function Hero() {
 
         <div className="flex justify-center">
           <a
-            href="/cv.pdf"
+            href="/CV_AndrewNicholas.pdf"
             download
             className="relative overflow-hidden inline-block px-10 py-4 text-xs uppercase tracking-[0.15em] transition-colors duration-300"
             style={{
