@@ -2,8 +2,8 @@ export default function Contact() {
   const contacts = [
     {
       label: "Email",
-      value: "andrew.nicholas@email.com",
-      href: "mailto:andrew.nicholas@email.com",
+      value: "andrew.nic3@gmail.com",
+      href: "mailto:andrew.nic3@gmail.com",
       icon: (
         <svg
           width="20"
@@ -22,8 +22,8 @@ export default function Contact() {
     },
     {
       label: "LinkedIn",
-      value: "linkedin.com/in/andrew-nicholas",
-      href: "https://linkedin.com/in/andrew-nicholas",
+      value: "linkedin.com/in/andrew-nicholas1234",
+      href: "https://www.linkedin.com/in/andrew-nicholas1234",
       icon: (
         <svg
           width="20"

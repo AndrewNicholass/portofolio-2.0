@@ -5,11 +5,11 @@ const projects = [
   {
     id: 1,
     title: "Reportin",
-    description: "",
+    description: "ReportIn is a smart facility reporting platform built using React.js, Express.js, and Firebase with a scalable full-stack architecture focused on modern building management workflows. The system implements a multi-tenant SaaS architecture using dynamic subdomains, OAuth2 Google Authentication, role-based access control, and RESTful APIs for secure and scalable operations. It also integrates Bluetooth Low Energy (BLE) and the Web Bluetooth API for automatic area detection through nearby beacon devices, while Progressive Web App (PWA) support enables installable app functionality and offline access capabilities.",
     tools: ["React", "Node.js", "Express.JS", "Firebase"],
-    image: null,
-    github: "https://github.com",
-    live: "https://example.com",
+    image: "/reportin2.jpeg",
+    github: "https://github.com/report-in",
+    live: "https://reportin.my.id",
   },
   {
     id: 2,
@@ -17,20 +17,20 @@ const projects = [
     description:
       "A full-stack web application created for movie management system. Built using technologies such as PHP/Laravel and MySQL, the application emphasizes responsive design, usability, and scalable web development concepts. The project also demonstrates understanding of CRUD operations, routing, authentication flow, and collaborative development using GitHub version control.",
     tools: ["MySQL", "Laravel", "PHP"],
-    image: null,
-    github: "https://github.com",
-    live: "https://example.com",
+    image: "/movie.jpeg",
+    github: "https://github.com/AndrewNicholass/LaravelCRUD",
+    live: "https://github.com/AndrewNicholass/LaravelCRUD",
   },
-  {
-    id: 3,
-    title: "",
-    description:
-      "A short description of what this project does, the problem it solves, and what makes it interesting. You can edit this later with your real project details.",
-    tools: ["Vue.js", "Firebase", "Tailwind CSS"],
-    image: null,
-    github: "https://github.com",
-    live: "https://example.com",
-  },
+  // {
+  //   id: 3,
+  //   title: "",
+  //   description:
+  //     "A short description of what this project does, the problem it solves, and what makes it interesting. You can edit this later with your real project details.",
+  //   tools: ["Vue.js", "Firebase", "Tailwind CSS"],
+  //   image: null,
+  //   github: "https://github.com",
+  //   live: "https://example.com",
+  // },
 ];
 
 export default function Projects() {
@@ -241,7 +241,7 @@ function ProjectImage({ image, title }) {
         <img
           src={image}
           alt={title}
-          style={{ width: "100%", height: "100%", objectFit: "cover" }}
+          style={{ width: "100%", height: "100%", objectFit: "contain" }}
         />
       ) : (
         <div style={{ textAlign: "center" }}>
